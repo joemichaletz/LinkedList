@@ -11,6 +11,12 @@ private:
 public:
     LinkedList();
     void addFront(int payload);
+    int getFront();
+    int removeFront();
+    //dont add tail head
+    void addEnd(int payload);
+    int getEnd();
+    int removeEnd();
     void display();
 };
 #endif /* LinkedList_hpp */
